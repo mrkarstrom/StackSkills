@@ -23,7 +23,7 @@
     z-index: 3;
 }
 
-.ringSymbol {
+.symbol.ring {
     position: absolute;
     display: inline-block;
     height: 40%;
