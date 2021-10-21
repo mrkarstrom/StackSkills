@@ -18,19 +18,32 @@
     top: 0;
     left: 10%;
     border: 1px solid black;
-    border-radius: 20px;
-    background-color: green;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: red;
     z-index: 3;
 }
 
-.symbol.ring {
+.mask {
     position: absolute;
     display: inline-block;
-    height: 40%;
-    width: 40%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
     border-radius: 50%;
-    bottom: 45%;
-    border: 2px solid white;
+    top: 5%;
+    background-color: black;
+}
+
+.mask.ring {
+    position: absolute;
+    display: inline-block;
+    left: 25%;
+    height: 40%;
+    width: 50%;
+    border-radius: 50%;
+    top: 15%;
+    border: 4px solid white;
     background-color: black;
 }
 
