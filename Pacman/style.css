@@ -1,0 +1,38 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.boxStart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.ghost {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: green;
+    z-index: 3;
+}
+
+.ringSymbol {
+    position: absolute;
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    bottom: 45%;
+    border: 2px solid white;
+    background-color: black;
+}
+
+
+
