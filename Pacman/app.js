@@ -47,5 +47,23 @@ function createGame() {
 }
 
 function createSquare(val) {
-            
+    const div =  document.createElement('div');
+    div.classList.add('box');
+    if (val == 1) {
+        div.classList.add('wall'); // add wall to element
+    }
+
+    if (val == 2) {
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        div.append(dot);
+    } // adding dots
+
+    if (val == 3) {
+        const dot = document.createElement('div');
+        dot.classList.add('superDot');
+        div.append(dot);
+    } // adding superDot
+    g.grid.append(div);
+    myBoard.push(div);
 }
