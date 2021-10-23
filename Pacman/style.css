@@ -114,3 +114,17 @@
     overflow: hidden;
 }
 
+.box {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.scoreBoard {
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+}
+
