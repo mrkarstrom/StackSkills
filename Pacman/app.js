@@ -31,3 +31,21 @@ document.addEventListener('DOMContentLoaded', () => {
     g.ghost = document.querySelector('.ghost');
     g.ghost.style.display = 'none';
 })
+
+function createGame() {
+    tempBoard.forEach((cell) => {
+        console.log(cell);
+        createSquare(cell);
+    })
+
+    for(let i=0; i<g.size; i++) {
+        g.x += ` ${g.h} `; //cell grid height
+    }
+
+    g.grid.style.gridTemplateColumns = g.x;
+    g.grid.style.gridTemplateRows = g.x;
+}
+
+function createSquare(val) {
+            
+}
