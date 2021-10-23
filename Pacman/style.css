@@ -47,5 +47,18 @@
     background-color: black;
 }
 
+.pacman {
+    z-index: 2;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+    background-color: yellow;
+}
 
+.eye {
+    
+}
 
